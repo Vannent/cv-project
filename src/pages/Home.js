@@ -1,8 +1,19 @@
 import Header from "../components/Header";
+import NavBar from "../components/NavBar";
 import "../styles/Home.css";
 
 const Home = () => {
-  return <Header />;
+  return (
+    <div className="home">
+      <Header />
+      <div className="container">
+        <div className="navbar">
+          <NavBar />
+        </div>
+        <div className="content"></div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #f2f2f0;
+  background-color: #f7f7f7;
   color: #595959;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -52,4 +52,67 @@ header {
 
 #click {
   cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  width: 25vw;
+  height: 92vh;
+  box-shadow: 1px 2px 5px #3d3d3d17;
+  background-color: #5959590c;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 92vh;
+  list-style: none;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+  padding-left: 33.3%;
+  cursor: pointer;
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #595959;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+li img {
+  margin-bottom: 5px;
+  margin-right: 4px;
+}
+
+.download-button {
+  border-style: none;
+  width: 15vw;
+  height: 5vh;
+  border-radius: 20px;
+  background-color: #63dfab;
+  color: #f2f2f2;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #3d3d3d17;
+}
+
+.download-button:hover {
+  background-color: #99f2c8;
+  transform: scale(1.02);
 }
