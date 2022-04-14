@@ -1,27 +1,19 @@
 import React from "react";
-import editIcon from "../img/edit.svg";
-import previewIcon from "../img/preview.svg";
-import resetIcon from "../img/reset.svg";
+import DownloadButton from "./buttons/DownloadButton";
+import EditButton from "./buttons/EditButton";
+import PreviewButton from "./buttons/PreviewButton";
+import ResetButton from "./buttons/ResetButton";
 
 const NavBar = () => {
   return (
     <div className="nav-content">
       <div className="top-nav">
-        <li>
-          <img src={editIcon} alt="edit icon" />
-          Edit
-        </li>
-        <li>
-          <img src={previewIcon} alt="preview icon" />
-          Preview
-        </li>
-        <li>
-          <img src={resetIcon} alt="reset icon" />
-          Reset
-        </li>
+        <EditButton />
+        <PreviewButton />
+        <ResetButton />
       </div>
       <div className="bottom-nav">
-        <button className="download-button">Download</button>
+        <DownloadButton />
       </div>
     </div>
   );
