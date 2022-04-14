@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
+import Resume from "../components/Resume";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
         <div className="navbar">
           <NavBar />
         </div>
-        <div className="content"></div>
+        <div className="content">
+          <Resume />
+        </div>
       </div>
     </div>
   );

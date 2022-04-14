@@ -60,7 +60,7 @@ header {
 
 .navbar {
   width: 25vw;
-  height: 92vh;
+  height: 94vh;
   box-shadow: 1px 2px 5px #3d3d3d17;
   background-color: #5959590c;
 }
@@ -115,4 +115,67 @@ li img {
 .download-button:hover {
   background-color: #99f2c8;
   transform: scale(1.02);
+}
+
+.content {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  width: 65vw;
+}
+
+.resume {
+  margin: 10px;
+  width: 100%;
+}
+
+.resume-header {
+  background-color: #63dfab;
+  width: 100%;
+  height: 10vh;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.resume-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.resume-role {
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+}
+
+.resume-contact {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #f6f6f6;
+}
+
+.resume-contact-box {
+  display: flex;
+  font-size: 0.9em;
+  gap: 3px;
+}
+
+.resume-ask {
+  font-weight: bold;
 }
