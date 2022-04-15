@@ -36,25 +36,25 @@ const Resume = () => {
         <div className="resume-skills">
           <div className="skills-title">Skills</div>
           <div className="skills-list">
-            <li className="skills">Skill</li>
-            <li className="skills">Skill</li>
-            <li className="skills">Skill</li>
+            <div className="skills">Skill</div>
+            <div className="skills">Skill</div>
+            <div className="skills">Skill</div>
           </div>
         </div>
         <div className="resume-projects">
           <div className="project-title">Projects</div>
           <div className="projects-list">
-            <li className="projects">Project</li>
+            <div className="projects">Project</div>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit
             </p>
-            <li className="projects">Project</li>
+            <div className="projects">Project</div>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit
             </p>
-            <li className="projects">Project</li>
+            <ddiv className="projects">Project</ddiv>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit
@@ -63,9 +63,17 @@ const Resume = () => {
         </div>
         <div className="resume-experience">
           <div className="experience-title">Experience</div>
+          <h3 className="resume-experience-title">Software Engineer</h3>
+          <p className="resume-experience-description">
+            Manage and design applications with JavaScript and HTML.
+          </p>
         </div>
         <div className="resume-education">
           <div className="education-title">Education</div>
+          <h3 className="resume-education-title">The Odin Project</h3>
+          <p className="resume-education-description">
+            Manage and design applications with JavaScript and HTML.
+          </p>
         </div>
       </div>
     </div>

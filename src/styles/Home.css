@@ -184,3 +184,65 @@ li img {
   font-size: 1em;
   font-weight: 100;
 }
+
+.resume-about,
+.resume-skills,
+.resume-projects,
+.resume-experience,
+.resume-education {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.about-title,
+.project-title,
+.experience-title,
+.education-title,
+.skills-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 1.1em;
+}
+
+.skills-list {
+  display: flex;
+  margin: 0;
+  margin-top: 5px;
+  gap: 15px;
+}
+
+.skills-list ol {
+  margin: 0;
+  margin-top: 3px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projects,
+.resume-experience-title,
+.resume-education-title {
+  margin: 0;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.projects-list p,
+.resume-education-description,
+.resume-experience-description {
+  margin: 0;
+}
+
+.resume-experience-title,
+.resume-education-title {
+  font-size: 1em;
+  margin-top: 8px;
+}
