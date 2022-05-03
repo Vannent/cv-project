@@ -1,9 +1,9 @@
 import React from "react";
 import editIcon from "../../img/edit.svg";
 
-const EditButton = () => {
+const EditButton = (props) => {
   return (
-    <li>
+    <li onClick={props.data}>
       <img src={editIcon} alt="edit icon" />
       Edit
     </li>
