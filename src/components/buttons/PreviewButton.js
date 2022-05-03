@@ -1,9 +1,9 @@
 import React from "react";
 import previewIcon from "../../img/preview.svg";
 
-const PreviewButton = () => {
+const PreviewButton = (props) => {
   return (
-    <li>
+    <li onClick={() => props.setHandleHome(false)}>
       <img src={previewIcon} alt="preview icon" />
       Preview
     </li>

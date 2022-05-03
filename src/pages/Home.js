@@ -5,7 +5,7 @@ import Edit from "../components/Edit";
 import "../styles/Home.css";
 import { useState } from "react";
 
-const Home = (props) => {
+const Home = () => {
   const [resume, setResume] = useState({
     name: "First Last",
     role: "Your Role",
@@ -20,20 +20,20 @@ const Home = (props) => {
   });
 
   const [handleHome, setHandleHome] = useState(false);
-  const handleClick = () => {
-    if (handleHome === false) setHandleHome(true);
-    else setHandleHome(false);
-  };
 
   return (
     <div className="home">
       <Header />
       <div className="container">
         <div className="navbar">
-          <NavBar data={handleClick} />
+          <NavBar setHandleHome={setHandleHome} />
         </div>
         <div className="content">
-          {handleHome ? <Edit resume={resume} /> : <Resume resume={resume} />}
+          {handleHome ? (
+            <Edit setResume={setResume} resume={resume} />
+          ) : (
+            <Resume resume={resume} />
+          )}
         </div>
       </div>
     </div>

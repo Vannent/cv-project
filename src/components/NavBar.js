@@ -8,8 +8,8 @@ const NavBar = (props) => {
   return (
     <div className="nav-content">
       <div className="top-nav">
-        <EditButton data={props.data} />
-        <PreviewButton />
+        <EditButton setHandleHome={props.setHandleHome} />
+        <PreviewButton setHandleHome={props.setHandleHome} />
         <ResetButton />
       </div>
       <div className="bottom-nav">
