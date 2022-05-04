@@ -14,8 +14,11 @@ const Home = () => {
     linkedin: "linkedin.com/in/username/",
     summary: "example example example",
     skills: "skills, skills, skills",
-    projects: "project, project, project",
+    projectTitle: "Project Title",
+    project: "project, project, project",
+    experienceTitle: "Project Title",
     experience: "experience, experience, experience",
+    educationTitle: "Project Title",
     education: "education, education, education",
   });
 
