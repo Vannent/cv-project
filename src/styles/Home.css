@@ -246,3 +246,49 @@ li img {
   font-size: 1em;
   margin-top: 8px;
 }
+
+input {
+  border-style: none;
+  border-radius: 5px;
+}
+
+.resume-name-input {
+  height: 2vh;
+  width: 20vw;
+  margin-bottom: 5px;
+}
+
+.resume-role-input {
+  height: 1.3vh;
+  width: 20vw;
+  margin-bottom: 5px;
+}
+
+.resume-phone-input {
+  height: 1vh;
+  width: 13vw;
+}
+
+.resume-summary-input {
+  height: 3vh;
+  width: 50vw;
+  margin-bottom: 5px;
+}
+
+.resume-skill-input {
+  height: 2vh;
+  width: 30vw;
+  margin-bottom: 5px;
+}
+
+.resume-title-input {
+  height: 2vh;
+  width: 30vw;
+  margin-bottom: 5px;
+}
+
+.resume-content-input {
+  height: 3vh;
+  width: 50vw;
+  margin-bottom: 5px;
+}
